@@ -1,0 +1,16 @@
+{
+
+  "description": "Prepare a pedantix game by submitting a predefined list of standard words.",
+  "manifest_version": 2,
+  "name": "Predantix",
+  "version": "0.3",
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/cloud.png",
+    "default_title": "Predantix",
+    "default_popup": "popup/choose.html"
+  }
+}
